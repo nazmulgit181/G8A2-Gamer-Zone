@@ -4,3 +4,39 @@ body{
 font-family: 'Jost', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+nav,.left-logo,.nav-right-side,.follow-us{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-image{
+  margin-right: 20px;
+}
+.gamer-g{
+  color: #FF42A5;
+}
+.nav-right-item{
+  margin-right: 32px;
+}
+.right-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+
+}
+.follow-us{
+  padding: 0px 20px;
+}
+
+.follow-us li{
+  list-style: none;
+  
+}
+.follow-us-item{
+  margin-right: 25px;
+}
+.fa-youtube{
+  color: #F61C0D;
+}
