@@ -125,10 +125,12 @@ background: rgba(11, 2, 35, 0.10);
 
 .banner-right{
   width: 50%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .banner-right img{
-  width: 500px;
+  width: 80%;
 }
 
 
@@ -149,4 +151,19 @@ background: rgba(11, 2, 35, 0.10);
     margin: 0;
     margin-bottom: 20px;
   }
+
+  /* banner section */
+  .banner-section{
+  flex-direction: column-reverse;
+  }
+
+  .banner-right{
+    width: 100%;
+    justify-content: center;
+  }
+
+ 
+  
+  
+  
 }
