@@ -4,12 +4,24 @@ body{
 font-family: 'Jost', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 /* nav section css starts here */
 nav,.left-logo,.nav-right-side,.follow-us{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
+
+nav{
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100px;
+}
+
 .logo-image{
   margin-right: 20px;
 }
@@ -28,7 +40,7 @@ background: rgba(11, 2, 35, 0.10);
 
 }
 .follow-us{
-  padding: 0px 20px;
+  padding: 10px 30px;
 }
 
 .follow-us li{
@@ -40,6 +52,83 @@ background: rgba(11, 2, 35, 0.10);
 }
 .fa-youtube{
   color: #F61C0D;
+}
+
+/* Banner section start */
+
+.banner-main{
+  background-color: rgba(211, 211, 211, 0.4);
+}
+
+.banner-section{
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-left{
+  background: url(images/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  padding: 50px 0px;
+}
+
+.banner-left ul{
+  list-style: none;
+}
+
+.banner-left ul li{
+  margin-bottom: 15px;
+}
+.banner-left > h2{
+  color: #0B0223;  
+  font-size: 2rem;  
+  font-weight: 600;  
+  text-transform: uppercase;
+}
+
+.banner-left > p{
+  color: #F948B2;  
+  font-size: 4rem;  
+  font-weight: 800;  
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.li-icon{
+  margin-right: 10px;
+}
+
+.btn-sign-in{
+  font-size: 1rem;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background-color: #FF42A5;
+  border: none;
+  margin-top: 15px;
+  margin-right: 8px;
+}
+
+.btn-rouge{
+  font-size: 1rem;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background-color: #4EC5F7;
+  border: none;
+}
+
+.banner-right{
+  width: 50%;
+}
+
+.banner-right img{
+  width: 500px;
 }
 
 
