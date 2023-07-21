@@ -203,6 +203,10 @@ background: rgba(11, 2, 35, 0.10);
     margin-bottom: 20px;
   }
 
+  .right-nav{
+    margin-bottom: 40px;
+  }
+
   /* banner section */
   .banner-section{
   flex-direction: column-reverse;
@@ -213,6 +217,15 @@ background: rgba(11, 2, 35, 0.10);
     justify-content: center;
   }
 
+  /* online game section */
+  .image-container{
+    flex-direction: column;
+  }
+
+  .image-container div{
+    width: 80%;
+    margin: 0 auto;
+  }
  
   
   
