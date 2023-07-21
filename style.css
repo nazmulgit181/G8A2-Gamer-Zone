@@ -4,6 +4,7 @@ body{
 font-family: 'Jost', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+/* nav section css starts here */
 nav,.left-logo,.nav-right-side,.follow-us{
   display: flex;
   justify-content: space-around;
@@ -39,4 +40,22 @@ background: rgba(11, 2, 35, 0.10);
 }
 .fa-youtube{
   color: #F61C0D;
+}
+/* Responsibe CSS hear 
+===================*/
+/* for mobile devices */
+@media screen and (max-width:576px){
+  nav{
+    flex-direction: column;
+  }
+  .left-logo{
+    padding: 20px 0px;
+  }
+  .nav-right-side{
+    flex-direction: column;
+  }
+  .nav-right-item{
+    margin: 0;
+    margin-bottom: 20px;
+  }
 }
