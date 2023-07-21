@@ -54,7 +54,8 @@ background: rgba(11, 2, 35, 0.10);
   color: #F61C0D;
 }
 
-/* Banner section start */
+/* Banner section start 
+=======================*/
 
 .banner-main{
   background-color: rgba(211, 211, 211, 0.4);
@@ -131,6 +132,56 @@ background: rgba(11, 2, 35, 0.10);
 
 .banner-right img{
   width: 80%;
+}
+
+/* Online game section start 
+============================*/
+.online-game-container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.online-game-section{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.online-game-tittle{
+  color: #0B0223;  
+  font-size: 2rem; 
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.online-game-tittle span{
+  color: #8758F1;
+}
+
+.online-game-para{
+  color: #534C64;
+  font-size: 1rem;
+  margin-bottom: 30px;
+
+}
+
+.image-container{
+  display: flex;
+  justify-content: center; 
+  gap: 15px;
+}
+
+.image-container div{
+  width: 25%;
+}
+
+.image-container img{
+  width: 100%;  
+}
+
+.image-container p{
+  width: 100%;
+  padding: 15px 0px;
+  
 }
 
 
