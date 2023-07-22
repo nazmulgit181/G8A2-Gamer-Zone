@@ -184,7 +184,62 @@ background: rgba(11, 2, 35, 0.10);
   
 }
 
+footer{
+  background-color: #0B0223;
+  padding: 3rem;
+}
 
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo .gamer{
+  color: #fff;
+}
+
+.footer-section{
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  min-height: 50vh;
+}
+
+.footer-list{
+  padding: 1.5rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-link{
+  padding: 1.5rem 0rem;
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-link a{
+  text-decoration: none;
+  color: #fff;
+  margin: 0rem 1.2rem;
+}
+.footer-list-2{
+  padding: 1.5rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list-2 a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-bottom{
+  color: #fff;
+}
 
 /* Responsive CSS hear 
 ===================*/
